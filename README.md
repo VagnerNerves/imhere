@@ -1,6 +1,6 @@
-<!-- <h1 align="center">
-  <img alt="Titulo do Projeto" title="Titulo do Projeto" src="https://github.com/vagnernerves/be-the-hero/blob/master/frontend/src/assets/bethehero_logo.png" />
-</h1> -->
+<h1 align="center">
+  <img alt="I'm Here" title="I'm Here" src="./src/assets/imherelogo.svg" />
+</h1>
 
 🚧 Project under construction 🚧
 
