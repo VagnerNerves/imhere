@@ -16,6 +16,10 @@ export function Home() {
   const [participantName, setParticipantName] = useState('')
 
   function handleParticipantAdd() {
+    if (participantName.trim() === '') {
+      return Alert.alert('Participante', 'Informe o nome do participante.')
+    }
+
     if (participants.includes(participantName)) {
       return Alert.alert(
         'Participante Existe',
