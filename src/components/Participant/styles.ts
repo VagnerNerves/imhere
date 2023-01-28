@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     color: '#FFF',
-    marginLeft: 16
+    marginLeft: 16,
+    marginRight: 16
   },
   buttonText: {
     color: '#FFF',
