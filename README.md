@@ -2,21 +2,21 @@
   <img alt="I'm Here" title="I'm Here" src="./src/assets/imherelogo.svg" />
 </h1>
 
-🚧 Project under construction 🚧
+I developed the I'm Here project, where you add participants who arrived at the event and have the option to delete them.
 
 <!-- ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+In the GitHub edit, drag the video that it already puts on github itself. -->
 
 ## 🎨 Layout
 
-Layout developed by [Name](https://www.instagram.com/urlName/)
+Layout developed by [Vagner Nerves](https://www.linkedin.com/in/vagnernervessantos/)
 
-[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/files)
+[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/file/fLrPBlOxXaydD0AyaWj42G/Project-Im-Here?node-id=9%3A503&t=PwzVBq0Q7noatvVm-1)
 
-## 👏 Learning and more implementations
+<!-- ## 👏 Learning and more implementations
 
-Describe what you learned and implemented in the project.
+Describe what you learned and implemented in the project. -->
 
 ## 💡 Technologies used
 
@@ -25,7 +25,7 @@ Describe what you learned and implemented in the project.
 
 ## 🚀 Running the project
 
-### Back-end
+<!-- ### Back-end
 
 Clone the project
 
@@ -75,11 +75,37 @@ Start the server
 
 ```bash
   npm run start
+``` -->
+
+### Mobile
+
+Clone the project
+
+```bash
+  git clone https://github.com/VagnerNerves/imhere.git
 ```
 
-## 📝 Routes
+Enter the project directory
 
-[![Run in Postman](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-postman.svg)](https://app.getpostman.com/run-collection/link)
+```bash
+  cd imhere
+```
+
+Install with dependencies
+
+```bash
+  npm i
+```
+
+Start the server
+
+```bash
+  npx expo start
+```
+
+<!-- ## 📝 Routes
+
+[![Run in Postman](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-postman.svg)](https://app.getpostman.com/run-collection/link) -->
 
 ## 🌎 License
 
