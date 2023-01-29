@@ -6,11 +6,15 @@ export const styles = StyleSheet.create({
     backgroundColor: '#131016',
     padding: 24
   },
+  logo: {
+    marginTop: 48,
+    alignItems: 'center'
+  },
   eventName: {
     color: '#FFF',
     fontSize: 24,
     fontWeight: 'bold',
-    marginTop: 48
+    marginTop: 34
   },
   eventDate: {
     color: '#6b6b6b',

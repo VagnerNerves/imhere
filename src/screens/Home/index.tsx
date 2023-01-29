@@ -11,6 +11,8 @@ import { Participant } from '../../components/Participant'
 
 import { styles } from './styles'
 
+import Logo from '../../assets/imherelogo.svg'
+
 export function Home() {
   const [participants, setParticipants] = useState<string[]>([])
   const [participantName, setParticipantName] = useState('')
@@ -49,6 +51,10 @@ export function Home() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.logo}>
+        <Logo width={138} height={32} />
+      </View>
+
       <Text style={styles.eventName}>Nome do Evento</Text>
 
       <Text style={styles.eventDate}>Domingo, 29 de Janeiro 2023</Text>
